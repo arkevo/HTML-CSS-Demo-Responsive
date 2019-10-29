@@ -1,0 +1,328 @@
+/**
+ * 1st Website Stylesheet
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ font-size: 16px;
+  font-family: serif, 'Arial-Narow';
+}
+
+.toprightlinks:hover {
+  color: rgb(12, 153, 129);
+
+}
+
+.toprightlinks {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+}
+header {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  width: 183px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 19px;
+  position: relative;
+  right: -533px;
+  top: -8px;
+}
+
+#topright {
+  padding: 20px;
+  color: rgb(112, 112, 112);
+  background: rgb(255, 255, 255);
+  width: 283px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  right: 396px;
+  top: -10px;
+}
+
+#background {
+  overflow: auto;
+  color: rgb(12, 153, 129);
+  position: relative;
+  top: -8px;
+  background: #e6e6e6;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgb(138, 138, 138);
+}
+
+#backgroundimg-portfolio {
+  width: 1885px;
+  height: 800px;
+}
+
+#backgroundimg {
+  width: 1902px;
+  height: 700px;
+}
+
+.contactbox {
+  color: rgb(112, 112, 112);
+  margin-bottom: 6px;
+  padding: 0px;
+  
+
+}
+
+.input {
+  width: 100%;
+}
+ .message-input {
+   height: 150px;
+   width: 100%
+ }
+
+.messageinput {
+  width: 100%;
+  height: 100%
+
+}
+#mainsection {
+  position: absolute;
+  top: 100px;
+  background: #ffffff;
+  width: 960px;
+  height: 55%;
+  right: 420px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
+#mainsection-portfolio {
+  position: absolute;
+  top: 100px;
+  background: #ffffff;
+  width: 960px;
+  height: 78%;
+  right: 420px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+#aboutme {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  color: rgb(12, 153, 129);
+}
+
+#secondsection {
+  margin: 70px 30px 50px 30px;
+  width: 900px;
+  height: 500px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#secondsection-contact {
+  margin: 70px 30px 50px 30px;
+  width: 900px;
+  height: 600px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#secondsection-portfolio {
+  margin: 70px 30px 50px 30px;
+  width: 900px;
+  height: 1500px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#maintext {
+  margin: 20px 0px 20px 20px;
+  color: rgb(138, 138, 138);
+  width: 670px;
+  float: left;
+}
+
+#secondtext {
+  float:left;
+  
+  color: rgb(138, 138, 138);
+}
+
+#cat {
+  margin-top: 19px;
+  margin-right:20px;
+  width: 180px;
+  height: 140px;
+  float: left;
+  overflow: auto;
+}
+
+.messagebox {
+width: 200px;
+height: 200px;
+text-align: top;
+}
+
+
+#hangman-image {
+  margin-top: 20px;
+  width: 160px;
+  height: 160px;
+  position:relative;
+  float:left;
+}
+
+#rpggame-image {
+  margin-top: 20px;
+  width: 163px;
+  height: 160px;
+  position:relative;
+  float:left;
+  margin-left: 50px;
+}
+
+#trivia-image {
+  margin-top: 30px;
+  width: 163px;
+  height: 165px;
+  position:relative;
+  clear:both;
+  float:left;
+  
+}
+
+#rutgers-image {
+  margin-top: 30px;
+  width: 163px;
+  height: 158px;
+  position:relative;
+  float:left;
+  margin-left: 45px;
+}
+
+#rock-image {
+  margin-top: 30px;
+  width: 163px;
+  height: 158px;
+  position:relative;
+  clear:both;
+  float:left;
+  margin-left: 5px;
+}
+
+.rpgtxt {
+  position: absolute;
+  top: 197px;
+  left: 241px;
+  width: 160px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.hangmantxt {
+  position: absolute;
+  top: 199px;
+  left: 31px;
+  width: 159px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+
+}
+
+.triviatxt {
+  position: absolute;
+  top: 392px;
+  left: 31px;
+  width: 160px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rutgerstxt {
+  position: absolute;
+  top: 389px;
+  left: 237px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rock-txt {
+  position: absolute;
+  top: 574px;
+  left: 34px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.contactbutton {
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  font-size: 14;
+  text-align: center;
+  line-height: 3px;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+}
+footer {
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+  border-color: rgb(12, 153, 129);
+  background: rgb(77, 77, 77);
+  color: rgb(199, 199, 199);
+  font-size: 10px;
+  text-align: center;
+  line-height: 22px;
+  padding: 20px;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  top: -13px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
