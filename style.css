@@ -92,6 +92,18 @@ header {
   height: 100%
 
 }
+#mainsection-aboutme {
+  position: absolute;
+  top: 100px;
+  background: #ffffff;
+  width: 960px;
+  height: 55%;
+  right: 420px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
 #mainsection {
   position: absolute;
   top: 100px;
@@ -124,7 +136,7 @@ header {
   color: rgb(12, 153, 129);
 }
 
-#secondsection {
+#secondsection-index {
   margin: 70px 30px 50px 30px;
   width: 900px;
   height: 500px;
@@ -423,6 +435,19 @@ footer {
   border-style: solid;
 }
 
+#mainsection-aboutme {
+   
+  position: absolute;
+  top: 150px;
+  background: #ffffff;
+  width: 577px;
+  height: 77%;
+  right: 15px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
 #backgroundimg-portfolio {
   width: 605px;
   height: 799px;
@@ -434,6 +459,17 @@ footer {
   width: 605px;
   height: 920px;
   clear:both;
+}
+
+#secondsection-index {
+  margin: 70px 30px 50px 30px;
+  width: 520px;
+  height: 89%;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
 }
 
 #secondsection-contact {
@@ -472,10 +508,9 @@ footer {
 
 #aboutme {
   position: absolute;
-  font-size:30px;
   left: 30px;
   top: 20px;
-  color: rgb(12, 153, 129);
+
 }
 .contactbox {
   color: rgb(112, 112, 112);
@@ -500,30 +535,37 @@ footer {
 
 }
 
+.text {
+  width: 10px;
+  position: relative;
+right: 196px;
+
+}
 #maintext {
   margin: 20px 0px 20px 20px;
-  color: rgb(138, 138, 138);
-  width: 670px;
-  float: left;
+  width: 390px;
+  
 }
 
 #secondtext {
-  float:left;
   
+  margin: 20px 0px 20px 20px;
+  width: 390px;
   color: rgb(138, 138, 138);
 }
 
 #cat {
   margin-top: 19px;
-  margin-right:20px;
-  width: 180px;
-  height: 140px;
+  margin-left:70px;
+  width: 380px;
+  height: 240px;
   float: left;
   overflow: auto;
 }
 
+
 .messagebox {
-  width: 200px;
+  width: 100px;
   height: 200px;
   text-align: top;
   }
