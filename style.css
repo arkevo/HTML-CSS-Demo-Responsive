@@ -4,6 +4,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0px auto;
 }
 
 body {
@@ -326,67 +327,126 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 640px){ 
 
-.toprightlinks:hover {
-  color: rgb(12, 153, 129);
+  body {
+    font-size: 16px;
+     font-family: sans-serif, 'Arial-Narow';
+   }
 
-}
 
-.toprightlinks {
-  color: rgb(112, 112, 112);
-  text-decoration: none;
-}
-.header-contact {
-  padding: 20px;
+.header-contactpage {
+  height: 80px;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
-  width: 183px;
+  width: 604px;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 19px;
   position: relative;
-  right: -533px;
-  top: -8px;
-  float: left;
+  padding: 35px;
+  right: -7px;
+  float:left;
 }
 
-#topright {
+
+
+#topright-contact {
   clear:both;
   padding: 20px;
   color: rgb(112, 112, 112);
   background: rgb(255, 255, 255);
-  width: 283px;
+  width: 393px;
   height: 20px;
   text-align: center;
   font-size: 16px;
   line-height: 19px;
   position: absolute;
-  right: 396px;
-  top: -10px;
+  right: 100px;
+  top: 75px;
 }
 
-#background {
+
+.toprightlinks-contact:hover {
+  color: rgb(12, 153, 129);
   clear:both;
-  overflow: auto;
+}
+
+.toprightlinks-contact {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+  clear:both; 
+}
+
+#background-contact {
+  clear:both;
+  width: 605px;
   color: rgb(12, 153, 129);
   position: relative;
-  top: -8px;
+  top: 51px;
   background: #e6e6e6;
   border-style: solid;
   border-width: 1px 0px 0px 0px;
   border-color: rgb(138, 138, 138);
 }
-
-#backgroundimg {
-  width: 600px;
-  height: 799px;
-  overflow: auto;
+#mainsection-contact {
+   
+  position: absolute;
+  top: 165px;
+  background: #ffffff;
+  width: 577px;
+  height: 57%;
+  right: 15px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
 }
 
+#backgroundimg-portfolio {
+  width: 605px;
+  height: 799px;
+  overflow: auto;
+  clear:both;
+}
+
+#backgroundimg-contact {
+  width: 605px;
+  height: 920px;
+  clear:both;
+}
+
+#header-contact {
+  position: absolute;
+  font-size:30px;
+  left: 30px;
+  top: 20px;
+  color: rgb(12, 153, 129);
+}
 .contactbox {
   color: rgb(112, 112, 112);
   margin-bottom: 6px;
+  margin-top: 25px;
   padding: 0px;
   
 
@@ -405,23 +465,35 @@ footer {
   height: 100%
 
 }
-#mainsection {
-   
+
+
+#secondsection-contact {
+  margin: 70px 30px 50px 30px;
+  width: 520px;
+  height: 79%;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+#mainsection-portfolio {
   position: absolute;
   top: 75px;
   background: #ffffff;
-  width: 577px;
-  height: 55%;
-  right: 20px;
+  width: 520px;
+  height: 75%;
+  right: 420px;
   border-color: rgb(138, 138, 138);
   border-width: 1px;
   border-style: solid;
 }
 
-#secondsection-contact {
+#secondsection-portfolio {
   margin: 70px 30px 50px 30px;
   width: 520px;
-  height: 600px;
+  height: 75%;
   overflow: auto;
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
@@ -435,20 +507,21 @@ footer {
   text-align: top;
   }
 
-  footer {
+  .footer-contact {
     border-style: solid;
-    border-width: 5px 0px 0px 0px;
+    border-width: 8px 0px 0px 0px;
     border-color: rgb(12, 153, 129);
     background: rgb(77, 77, 77);
     color: rgb(199, 199, 199);
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     line-height: 22px;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
-    height: 40px;
+    height: 90px;
     position: relative;
-    top: -13px;
+    bottom: -100px;
+   
     
   }
   
