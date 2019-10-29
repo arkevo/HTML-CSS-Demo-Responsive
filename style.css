@@ -356,7 +356,7 @@ footer {
    }
 
 
-.header-contactpage {
+.header {
   height: 80px;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
@@ -366,13 +366,13 @@ footer {
   line-height: 19px;
   position: relative;
   padding: 35px;
-  right: -7px;
+  right: 0px;
   float:left;
 }
 
 
 
-#topright-contact {
+#topright {
   clear:both;
   padding: 20px;
   color: rgb(112, 112, 112);
@@ -388,18 +388,18 @@ footer {
 }
 
 
-.toprightlinks-contact:hover {
+.toprightlinks:hover {
   color: rgb(12, 153, 129);
   clear:both;
 }
 
-.toprightlinks-contact {
+.toprightlinks {
   color: rgb(112, 112, 112);
   text-decoration: none;
   clear:both; 
 }
 
-#background-contact {
+#background {
   clear:both;
   width: 605px;
   color: rgb(12, 153, 129);
@@ -410,10 +410,10 @@ footer {
   border-width: 1px 0px 0px 0px;
   border-color: rgb(138, 138, 138);
 }
-#mainsection-contact {
+#mainsection {
    
   position: absolute;
-  top: 165px;
+  top: 150px;
   background: #ffffff;
   width: 577px;
   height: 57%;
@@ -430,42 +430,11 @@ footer {
   clear:both;
 }
 
-#backgroundimg-contact {
+#backgroundimg {
   width: 605px;
   height: 920px;
   clear:both;
 }
-
-#header-contact {
-  position: absolute;
-  font-size:30px;
-  left: 30px;
-  top: 20px;
-  color: rgb(12, 153, 129);
-}
-.contactbox {
-  color: rgb(112, 112, 112);
-  margin-bottom: 6px;
-  margin-top: 25px;
-  padding: 0px;
-  
-
-}
-
-.input {
-  width: 100%;
-}
- .message-input {
-   height: 150px;
-   width: 100%
- }
-
-.messageinput {
-  width: 100%;
-  height: 100%
-
-}
-
 
 #secondsection-contact {
   margin: 70px 30px 50px 30px;
@@ -501,13 +470,65 @@ footer {
   
 }
 
+#aboutme {
+  position: absolute;
+  font-size:30px;
+  left: 30px;
+  top: 20px;
+  color: rgb(12, 153, 129);
+}
+.contactbox {
+  color: rgb(112, 112, 112);
+  margin-bottom: 6px;
+  margin-top: 25px;
+  padding: 0px;
+  
+
+}
+
+.input {
+  width: 100%;
+}
+ .message-input {
+   height: 150px;
+   width: 100%
+ }
+
+.messageinput {
+  width: 100%;
+  height: 100%
+
+}
+
+#maintext {
+  margin: 20px 0px 20px 20px;
+  color: rgb(138, 138, 138);
+  width: 670px;
+  float: left;
+}
+
+#secondtext {
+  float:left;
+  
+  color: rgb(138, 138, 138);
+}
+
+#cat {
+  margin-top: 19px;
+  margin-right:20px;
+  width: 180px;
+  height: 140px;
+  float: left;
+  overflow: auto;
+}
+
 .messagebox {
   width: 200px;
   height: 200px;
   text-align: top;
   }
 
-  .footer-contact {
+  .footer {
     border-style: solid;
     border-width: 8px 0px 0px 0px;
     border-color: rgb(12, 153, 129);
