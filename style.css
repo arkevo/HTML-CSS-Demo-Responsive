@@ -1,5 +1,5 @@
 /**
- * 1st Website Stylesheet
+ * CSS/HTML Responsive Demo Stylesheet
  **/
 
 * {
@@ -9,6 +9,7 @@
 body {
  font-size: 16px;
   font-family: serif, 'Arial-Narow';
+ 
 }
 
 .toprightlinks:hover {
@@ -20,6 +21,7 @@ body {
   color: rgb(112, 112, 112);
   text-decoration: none;
 }
+
 header {
   padding: 20px;
   color: rgb(255, 255, 255);
@@ -321,8 +323,134 @@ footer {
   top: -13px;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+
+
+
+@media screen and (max-width: 640px){ 
+
+.toprightlinks:hover {
+  color: rgb(12, 153, 129);
+
+}
+
+.toprightlinks {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+}
+.header-contact {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  width: 183px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 19px;
+  position: relative;
+  right: -533px;
+  top: -8px;
+  float: left;
+}
+
+#topright {
+  clear:both;
+  padding: 20px;
+  color: rgb(112, 112, 112);
+  background: rgb(255, 255, 255);
+  width: 283px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  right: 396px;
+  top: -10px;
+}
+
+#background {
+  clear:both;
+  overflow: auto;
+  color: rgb(12, 153, 129);
+  position: relative;
+  top: -8px;
+  background: #e6e6e6;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgb(138, 138, 138);
+}
+
+#backgroundimg {
+  width: 600px;
+  height: 799px;
+  overflow: auto;
+}
+
+.contactbox {
+  color: rgb(112, 112, 112);
+  margin-bottom: 6px;
+  padding: 0px;
+  
+
+}
+
+.input {
+  width: 100%;
+}
+ .message-input {
+   height: 150px;
+   width: 100%
+ }
+
+.messageinput {
+  width: 100%;
+  height: 100%
+
+}
+#mainsection {
+   
+  position: absolute;
+  top: 75px;
+  background: #ffffff;
+  width: 577px;
+  height: 55%;
+  right: 20px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
+#secondsection-contact {
+  margin: 70px 30px 50px 30px;
+  width: 520px;
+  height: 600px;
+  overflow: auto;
+  border-color: rgb(204, 204, 204);
+  border-width: 3px 0px 0px 0px;
+  border-style: solid;
+  
+}
+
+.messagebox {
+  width: 200px;
+  height: 200px;
+  text-align: top;
+  }
+
+  footer {
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: rgb(12, 153, 129);
+    background: rgb(77, 77, 77);
+    color: rgb(199, 199, 199);
+    font-size: 10px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: -13px;
+    
+  }
+  
+
 }
