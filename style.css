@@ -136,7 +136,16 @@ header {
   color: rgb(12, 153, 129);
 }
 
-#secondsection-index {
+#portfolioHeader {
+  position: absolute;
+  left: 30px;
+  color: rgb(12, 153, 129);
+  top: 4px;
+
+}
+
+
+#secondsection-aboutme {
   margin: 70px 30px 50px 30px;
   width: 900px;
   height: 500px;
@@ -428,7 +437,7 @@ footer {
   top: 150px;
   background: #ffffff;
   width: 577px;
-  height: 57%;
+  height: 59%;
   right: 15px;
   border-color: rgb(138, 138, 138);
   border-width: 1px;
@@ -441,8 +450,20 @@ footer {
   top: 150px;
   background: #ffffff;
   width: 577px;
-  height: 77%;
+  height: 82%;
   right: 15px;
+  border-color: rgb(138, 138, 138);
+  border-width: 1px;
+  border-style: solid;
+}
+
+#mainsection-portfolio {
+  position: absolute;
+  top: 160px;
+  background: #ffffff;
+  width: 547px;
+  height: 1400px;
+  right: 25px;
   border-color: rgb(138, 138, 138);
   border-width: 1px;
   border-style: solid;
@@ -450,7 +471,7 @@ footer {
 
 #backgroundimg-portfolio {
   width: 605px;
-  height: 799px;
+  height: 1520px;
   overflow: auto;
   clear:both;
 }
@@ -461,7 +482,7 @@ footer {
   clear:both;
 }
 
-#secondsection-index {
+#secondsection-aboutme {
   margin: 70px 30px 50px 30px;
   width: 520px;
   height: 89%;
@@ -483,22 +504,12 @@ footer {
   
 }
 
-#mainsection-portfolio {
-  position: absolute;
-  top: 75px;
-  background: #ffffff;
-  width: 520px;
-  height: 75%;
-  right: 420px;
-  border-color: rgb(138, 138, 138);
-  border-width: 1px;
-  border-style: solid;
-}
+
 
 #secondsection-portfolio {
-  margin: 70px 30px 50px 30px;
-  width: 520px;
-  height: 75%;
+  margin: 70px 40px 50px 40px;
+  width: 450px;
+  height: 89%;
   overflow: auto;
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
@@ -509,9 +520,20 @@ footer {
 #aboutme {
   position: absolute;
   left: 30px;
-  top: 20px;
+  top: 4px;
 
 }
+
+#portfolioHeader {
+  position: absolute;
+ color: rgb(12, 153, 129);
+  left: 30px;
+  top: 4px;
+  margin-left: 9px;
+
+}
+
+
 .contactbox {
   color: rgb(112, 112, 112);
   margin-bottom: 6px;
@@ -538,29 +560,143 @@ footer {
 .text {
   width: 10px;
   position: relative;
-right: 196px;
+right: 255px;
+margin: 0px auto;
+text-align: justify;
+top: 25px;
 
 }
 #maintext {
   margin: 20px 0px 20px 20px;
-  width: 390px;
+  width: 520px;
+  margin: 0px auto;
   
 }
 
 #secondtext {
   
   margin: 20px 0px 20px 20px;
-  width: 390px;
+  width: 520px;
   color: rgb(138, 138, 138);
+  margin: 0px auto;
 }
 
 #cat {
   margin-top: 19px;
-  margin-left:70px;
-  width: 380px;
-  height: 240px;
-  float: left;
-  overflow: auto;
+  margin-left:0px;
+  width: 520px;
+  height: 300px;
+}
+
+
+#hangman-image {
+  margin-top: 10px;
+  width: 450px;
+  height: 260px;
+  position:relative;
+
+}
+
+#rpggame-image {
+  margin-top: 20px;
+  width: 450px;
+  height: 260px;
+  position:relative;
+  top: 190px;
+  left: -200px;
+}
+
+#trivia-image {
+  margin-top: 30px;
+  width: 450px;;
+  height: 260px;
+  position:relative;
+  top: 200px;
+
+  
+}
+
+#rutgers-image {
+  margin-top: 30px;
+  width: 450px;
+  height: 260px;
+  position:relative;
+  top: 800px;
+}
+
+#rock-image {
+  margin-top: 30px;
+  width: 450px;
+  height: 260px;
+  position:relative;
+  top: 600px;
+  margin-left: 5px;
+}
+
+.rpgtxt {
+  position: absolute;
+  top: 197px;
+  left: 241px;
+  width: 160px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.hangmantxt {
+  position: absolute;
+  top: 199px;
+  left: 31px;
+  width: 159px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+
+}
+
+.triviatxt {
+  position: absolute;
+  top: 392px;
+  left: 31px;
+  width: 160px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rutgerstxt {
+  position: absolute;
+  top: 389px;
+  left: 237px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
+}
+
+.rock-txt {
+  position: absolute;
+  top: 574px;
+  left: 34px;
+  width: 164px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(12, 153, 129);
+  padding-top: 10px;
 }
 
 
