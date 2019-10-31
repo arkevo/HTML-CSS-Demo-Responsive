@@ -4,18 +4,15 @@
 
 * {
   box-sizing: border-box;
-  
 }
 
 body {
- font-size: 16px;
-  font-family: serif, 'Arial-Narow';
- 
+  font-size: 16px;
+  font-family: serif, "Arial-Narow";
 }
 
 .toprightlinks:hover {
   color: rgb(12, 153, 129);
-
 }
 
 .toprightlinks {
@@ -75,22 +72,19 @@ header {
   color: rgb(112, 112, 112);
   margin-bottom: 6px;
   padding: 0px;
-  
-
 }
 
 .input {
   width: 100%;
 }
- .message-input {
-   height: 150px;
-   width: 100%
- }
+.message-input {
+  height: 150px;
+  width: 100%;
+}
 
 .messageinput {
   width: 100%;
-  height: 100%
-
+  height: 100%;
 }
 #mainsection-aboutme {
   position: absolute;
@@ -128,8 +122,14 @@ header {
   border-style: solid;
 }
 
-
 #aboutme {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  color: rgb(12, 153, 129);
+}
+
+#contactHeader {
   position: absolute;
   left: 30px;
   top: 10px;
@@ -141,9 +141,7 @@ header {
   left: 30px;
   color: rgb(12, 153, 129);
   top: 4px;
-
 }
-
 
 #secondsection-aboutme {
   margin: 70px 30px 50px 30px;
@@ -153,7 +151,6 @@ header {
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
   border-style: solid;
-  
 }
 
 #secondsection-contact {
@@ -164,7 +161,6 @@ header {
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
   border-style: solid;
-  
 }
 
 #secondsection-portfolio {
@@ -175,7 +171,6 @@ header {
   border-color: rgb(204, 204, 204);
   border-width: 3px 0px 0px 0px;
   border-style: solid;
-  
 }
 
 #maintext {
@@ -186,14 +181,14 @@ header {
 }
 
 #secondtext {
-  float:left;
-  
+  float: left;
+
   color: rgb(138, 138, 138);
 }
 
 #cat {
   margin-top: 19px;
-  margin-right:20px;
+  margin-right: 20px;
   width: 180px;
   height: 140px;
   float: left;
@@ -201,26 +196,25 @@ header {
 }
 
 .messagebox {
-width: 200px;
-height: 200px;
-text-align: top;
+  width: 200px;
+  height: 200px;
+  text-align: top;
 }
-
 
 #hangman-image {
   margin-top: 20px;
   width: 160px;
   height: 160px;
-  position:relative;
-  float:left;
+  position: relative;
+  float: left;
 }
 
 #rpggame-image {
   margin-top: 20px;
   width: 163px;
   height: 160px;
-  position:relative;
-  float:left;
+  position: relative;
+  float: left;
   margin-left: 50px;
 }
 
@@ -228,18 +222,17 @@ text-align: top;
   margin-top: 30px;
   width: 163px;
   height: 165px;
-  position:relative;
-  clear:both;
-  float:left;
-  
+  position: relative;
+  clear: both;
+  float: left;
 }
 
 #rutgers-image {
   margin-top: 30px;
   width: 163px;
   height: 158px;
-  position:relative;
-  float:left;
+  position: relative;
+  float: left;
   margin-left: 45px;
 }
 
@@ -247,9 +240,9 @@ text-align: top;
   margin-top: 30px;
   width: 163px;
   height: 158px;
-  position:relative;
-  clear:both;
-  float:left;
+  position: relative;
+  clear: both;
+  float: left;
   margin-left: 5px;
 }
 
@@ -277,7 +270,6 @@ text-align: top;
   color: rgb(255, 255, 255);
   background: rgb(12, 153, 129);
   padding-top: 10px;
-
 }
 
 .triviatxt {
@@ -345,365 +337,223 @@ footer {
   top: -13px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 640px){ 
-
+@media screen and (max-width: 640px) {
   body {
     font-size: 16px;
-     font-family: sans-serif, 'Arial-Narow';
-   }
+    font-family: sans-serif, "Arial-Narow";
+  }
 
+  .header {
+    height: 80px;
+    width: 604px;
+    font-size: 30px;
+    line-height: 19px;
+    padding: 35px;
+    right: 0px;
+  }
 
-.header {
-  height: 80px;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  width: 604px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 19px;
-  position: relative;
-  padding: 35px;
-  right: 0px;
-  float:left;
-}
+  #topright {
+    padding: 20px;
+    width: 393px;
+    line-height: 19px;
+    right: 100px;
+    top: 75px;
+  }
 
+  #background {
+    width: 605px;
+    top: 51px;
+  }
 
+  #mainsection {
+    top: 150px;
+    width: 577px;
+    height: 59%;
+    right: 10px;
+  }
 
-#topright {
-  clear:both;
-  padding: 20px;
-  color: rgb(112, 112, 112);
-  background: rgb(255, 255, 255);
-  width: 393px;
-  height: 20px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 19px;
-  position: absolute;
-  right: 100px;
-  top: 75px;
-}
+  #mainsection-aboutme {
+    top: 150px;
+    width: 577px;
+    height: 82%;
+    right: 10px;
+  }
 
+  #mainsection-portfolio {
+    top: 160px;
+    width: 547px;
+    height: 1700px;
+    right: 25px;
+  }
 
-.toprightlinks:hover {
-  color: rgb(12, 153, 129);
-  clear:both;
-}
+  #backgroundimg-portfolio {
+    width: 605px;
+    height: 2020px;
+    overflow: auto;
+    clear: both;
+  }
 
-.toprightlinks {
-  color: rgb(112, 112, 112);
-  text-decoration: none;
-  clear:both; 
-}
+  #backgroundimg {
+    width: 605px;
+    height: 920px;
+    clear: both;
+  }
 
-#background {
-  clear:both;
-  width: 605px;
-  color: rgb(12, 153, 129);
-  position: relative;
-  top: 51px;
-  background: #e6e6e6;
-  border-style: solid;
-  border-width: 1px 0px 0px 0px;
-  border-color: rgb(138, 138, 138);
-}
-#mainsection {
-   
-  position: absolute;
-  top: 150px;
-  background: #ffffff;
-  width: 577px;
-  height: 59%;
-  right: 15px;
-  border-color: rgb(138, 138, 138);
-  border-width: 1px;
-  border-style: solid;
-}
+  #secondsection-aboutme {
+    width: 520px;
+    height: 89%;
+  }
 
-#mainsection-aboutme {
-   
-  position: absolute;
-  top: 150px;
-  background: #ffffff;
-  width: 577px;
-  height: 82%;
-  right: 15px;
-  border-color: rgb(138, 138, 138);
-  border-width: 1px;
-  border-style: solid;
-}
+  #secondsection-contact {
+    width: 520px;
+    height: 80%;
+  }
 
-#mainsection-portfolio {
-  position: absolute;
-  top: 160px;
-  background: #ffffff;
-  width: 547px;
-  height: 1400px;
-  right: 25px;
-  border-color: rgb(138, 138, 138);
-  border-width: 1px;
-  border-style: solid;
-}
-
-#backgroundimg-portfolio {
-  width: 605px;
-  height: 1520px;
-  overflow: auto;
-  clear:both;
-}
-
-#backgroundimg {
-  width: 605px;
-  height: 920px;
-  clear:both;
-}
-
-#secondsection-aboutme {
-  margin: 70px 30px 50px 30px;
-  width: 520px;
-  height: 89%;
-  overflow: auto;
-  border-color: rgb(204, 204, 204);
-  border-width: 3px 0px 0px 0px;
-  border-style: solid;
+  #secondsection-portfolio {
+     
+    width: 470px;
+    height: 95%;
   
-}
+  }
 
-#secondsection-contact {
-  margin: 70px 30px 50px 30px;
-  width: 520px;
-  height: 79%;
-  overflow: auto;
-  border-color: rgb(204, 204, 204);
-  border-width: 3px 0px 0px 0px;
-  border-style: solid;
-  
-}
+  #aboutme {
+    left: 30px;
+    top: 4px;
+  }
 
+  #portfolioHeader {
+    left: 55px;
+  }
 
+  #contactHeader {
+    left: 30px;
+    top: 4px;
+  }
 
-#secondsection-portfolio {
-  margin: 70px 40px 50px 40px;
-  width: 450px;
-  height: 89%;
-  overflow: auto;
-  border-color: rgb(204, 204, 204);
-  border-width: 3px 0px 0px 0px;
-  border-style: solid;
-  
-}
+  .contactbox {
+    color: rgb(112, 112, 112);
+    margin-bottom: 6px;
+    margin-top: 25px;
+    padding: 0px;
+  }
 
-#aboutme {
-  position: absolute;
-  left: 30px;
-  top: 4px;
+  .input {
+    width: 100%;
+  }
+  .message-input {
+    height: 150px;
+    width: 100%;
+  }
 
-}
+  .messageinput {
+    width: 100%;
+    height: 100%;
+  }
 
-#portfolioHeader {
-  position: absolute;
- color: rgb(12, 153, 129);
-  left: 30px;
-  top: 4px;
-  margin-left: 9px;
+  .text {
+    width: 10px;
+    position: relative;
+    right: 255px;
+    margin: 0px auto;
+    text-align: justify;
+    top: 25px;
+  }
+  #maintext {
+    margin: 20px 0px 20px 20px;
+    width: 520px;
+    margin: 0px auto;
+  }
 
-}
+  #secondtext {
+    margin: 20px 0px 20px 20px;
+    width: 520px;
+    color: rgb(138, 138, 138);
+    margin: 0px auto;
+  }
 
+  #cat {
+    margin-top: 19px;
+    margin-left: 0px;
+    width: 520px;
+    height: 300px;
+  }
 
-.contactbox {
-  color: rgb(112, 112, 112);
-  margin-bottom: 6px;
-  margin-top: 25px;
-  padding: 0px;
-  
+  #hangman-image {
+    margin-top: 10px;
+    width: 470px;
+    height: 270px;
+  }
 
-}
+  #rpggame-image {
+    margin-top: 40px;
+    width: 470px;
+    height: 270px;
+    top: 1px;
+    margin-left: 0px;
+    
+    
+  }
 
-.input {
-  width: 100%;
-}
- .message-input {
-   height: 150px;
-   width: 100%
- }
+  #trivia-image {
+    margin-top: 40px;
+    width: 470px;
+    height: 270px;
+    top: 0px;
+    margin-left: 0px;
+    
+  }
 
-.messageinput {
-  width: 100%;
-  height: 100%
+  #rutgers-image {
+    margin-top: 40px;
+    width: 470px;
+    height: 270px;
+    top: 0px;
+    margin-left: 0px;
+  }
 
-}
+  #rock-image {
+    margin-top: 40px;
+    width: 470px;
+    height: 270px;
+    top: 0px;
+    margin-left: 5px;
+    margin-left: 0px;
+  }
 
-.text {
-  width: 10px;
-  position: relative;
-right: 255px;
-margin: 0px auto;
-text-align: justify;
-top: 25px;
+  .rpgtxt {
+    top: 1245px;
+    width: 470px;
+    margin: 0px;
+    left: 30px;
+  }
 
-}
-#maintext {
-  margin: 20px 0px 20px 20px;
-  width: 520px;
-  margin: 0px auto;
-  
-}
+  .hangmantxt {
+    top: 299px;
+    width: 470px;
+  }
 
-#secondtext {
-  
-  margin: 20px 0px 20px 20px;
-  width: 520px;
-  color: rgb(138, 138, 138);
-  margin: 0px auto;
-}
+  .triviatxt {
+    top: 610px;
+    width: 470px;
+  }
 
-#cat {
-  margin-top: 19px;
-  margin-left:0px;
-  width: 520px;
-  height: 300px;
-}
+  .rutgerstxt {
+    top: 935px;
+    width: 470px;
+    margin: 0px;
+    left: 30px;
+  }
 
+  .rock-txt {
+    top: 1522px;
+    width: 470px;
+    left: 30px;
+  }
 
-#hangman-image {
-  margin-top: 10px;
-  width: 450px;
-  height: 260px;
-  position:relative;
-
-}
-
-#rpggame-image {
-  margin-top: 20px;
-  width: 450px;
-  height: 260px;
-  position:relative;
-  top: 190px;
-  left: -200px;
-}
-
-#trivia-image {
-  margin-top: 30px;
-  width: 450px;;
-  height: 260px;
-  position:relative;
-  top: 200px;
-
-  
-}
-
-#rutgers-image {
-  margin-top: 30px;
-  width: 450px;
-  height: 260px;
-  position:relative;
-  top: 800px;
-}
-
-#rock-image {
-  margin-top: 30px;
-  width: 450px;
-  height: 260px;
-  position:relative;
-  top: 600px;
-  margin-left: 5px;
-}
-
-.rpgtxt {
-  position: absolute;
-  top: 197px;
-  left: 241px;
-  width: 160px;
-  height: 35px;
-  font-size: 14px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  padding-top: 10px;
-}
-
-.hangmantxt {
-  position: absolute;
-  top: 199px;
-  left: 31px;
-  width: 159px;
-  height: 35px;
-  font-size: 14px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  padding-top: 10px;
-
-}
-
-.triviatxt {
-  position: absolute;
-  top: 392px;
-  left: 31px;
-  width: 160px;
-  height: 35px;
-  font-size: 14px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  padding-top: 10px;
-}
-
-.rutgerstxt {
-  position: absolute;
-  top: 389px;
-  left: 237px;
-  width: 164px;
-  height: 35px;
-  font-size: 14px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  padding-top: 10px;
-}
-
-.rock-txt {
-  position: absolute;
-  top: 574px;
-  left: 34px;
-  width: 164px;
-  height: 35px;
-  font-size: 14px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background: rgb(12, 153, 129);
-  padding-top: 10px;
-}
-
-
-.messagebox {
-  width: 100px;
-  height: 200px;
-  text-align: top;
+  .messagebox {
+    width: 100px;
+    height: 200px;
+    text-align: top;
   }
 
   .footer {
@@ -720,9 +570,5 @@ top: 25px;
     height: 90px;
     position: relative;
     bottom: -100px;
-   
-    
   }
-  
-
 }
